@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,8 +41,8 @@
     <link rel="stylesheet" href="style.css">
   </head>
            <div class="busca-box">
-        <input type="text" id="input-id" value="UC-lHJZR3Gqxm24_Vd_AJ5Yw" placeholder="Cole o ID do canal (UC...)">
-        <button onclick="mudarCanal()">Trocar Canal</button>
+        <input type="text" id="input-id" value="UC-lHJZR3Gqxm24_Vd_AJ5Yw" placeholder="Paste the channel ID (UC...)">
+        <button onclick="mudarCanal()">Change Channel</button>
     </div>
 
     <div class="contador-card">
@@ -50,7 +50,7 @@
         <h2 id="nome-canal" class="canal-titulo">Carregando...</h2>
         
         <div class="numero" id="inscritos">0</div>
-        <div class="label">Inscritos Estimados</div>
+        <div class="label">Subscribers Estimated</div>
         
         <div class="sub-dados">
             Visualizações: <span id="views" style="color: #ffcc00; font-weight: bold;">0</span>
@@ -58,17 +58,17 @@
 
         <div class="api-dados-container">
             <div class="api-bloco">
-                <div class="api-titulo">Inscritos (API)</div>
+                <div class="api-titulo">Subscribers (API)</div>
                 <span id="api-subs" style="font-weight: bold; color: #00ffcc;">0</span>
             </div>
             <div class="api-bloco">
-                <div class="api-titulo">Visualizações (API)</div>
+                <div class="api-titulo">Views (API)</div>
                 <span id="api-views" style="font-weight: bold; color: #ff9900;">0</span>
             </div>
         </div>
 
         <div class="meta-container">
-            <span id="meta-texto" style="font-weight: bold; font-size: 14px;">Calculando meta...</span>
+            <span id="meta-texto" style="font-weight: bold; font-size: 14px;">Calculating goal...</span>
             <div class="meta-barra-fundo">
                 <div id="meta-barra" class="meta-barra-progresso"></div>
             </div>
