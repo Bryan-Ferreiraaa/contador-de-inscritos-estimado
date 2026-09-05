@@ -1,6 +1,6 @@
 {
   "name": "Contador de Inscritos Estimado",
-  "short_name": "Contador",
+  "short_name": "Contador de inscritos Estimado",
   "description": "Acompanhe o número de inscritos estimado de qualquer canal do YouTube em tempo real!",
   "start_url": "./index.html",
   "display": "standalone",
@@ -8,12 +8,12 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "favicon-96x96.png",
+      "src": "icons/favicon-96x96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "favicon-192x192.png",
+      "src": "icons/favicon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
