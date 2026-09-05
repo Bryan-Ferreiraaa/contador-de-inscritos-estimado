@@ -7,4 +7,4 @@
 
 Coloque O Id Do Canal Na Caixa De Texto, Exemplo: "UC-lHJZR3Gqxm24_Vd_AJ5Yw, UCX6OQ3DkcsbYNE6H8uQQuVA" E Clique Em "Trocar Canal"
 
-Novas Atualizações Em Breve No Site!
+Novas Atualizações Em Breve No Site! 🚀
