@@ -1,6 +1,5 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://w3.org">
-<svg version="1.1" xmlns="http://w3.org" width="768" height="768" viewBox="0 0 768 768">
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org" width="768" height="768" viewBox="0 0 768 768">
   <defs>
     <!-- Máscara para prender a sombra perfeitamente dentro do círculo principal -->
     <clipPath id="limiteCirculo">
@@ -14,14 +13,17 @@
   <!-- Todo o conteúdo abaixo fica preso dentro das bordas do círculo -->
   <g clip-path="url(#limiteCirculo)">
     
-    <!-- 2. A Sombra Longa Vetorial (Desenhada perfeitamente na diagonal com 12% de opacidade) -->
+     <!-- 2. A Sombra Longa Vetorial Corrigida Idêntica ao PNG -->
     <g fill="#000000" opacity="0.12">
-      <!-- Sombra da primeira linha e bolinha -->
+      <!-- Sombra da primeira metade do gráfico -->
       <polygon points="181,504 229,456 800,1027 800,1123"/>
-      <!-- Sombra do corpo central do gráfico projetada até o infinito -->
+      
+      <!-- Sombra maciça central -->
       <polygon points="205,480 310,360 425,415 560,305 600,345 800,545 800,1075"/>
-      <!-- Sombra complementar das curvas superiores -->
-      <polygon points="310,360 425,415 800,790 800,735"/>
+      
+      <!-- Sombra exata da última barra conectora (Ajustada mais para a esquerda) -->
+      <polygon points="425,415 449,391 800,742 800,790"/>
+      <polygon points="515,346 593,298 800,535 800,583"/>
     </g>
 
     <!-- 3. O Gráfico Branco Principal (Por cima da sombra) -->
