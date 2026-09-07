@@ -5,6 +5,6 @@
  
 ![description](https://bryan-ferreiraaa.github.io/contador-de-inscritos-estimado/english/images/background.png)
 
-Enter the channel ID in the text box—for example, "UC-lHJZR3Gqxm24_Vd_AJ5Yw, UCX6OQ3DkcsbYNE6H8uQQuVA"—and click "Switch Channel."
+Enter the channel ID in the text box—for example, "UC-lHJZR3Gqxm24_Vd_AJ5Yw, UCX6OQ3DkcsbYNE6H8uQQuVA"—and click "Change Channel."
 
 New updates coming soon to the site! 🚀
