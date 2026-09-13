@@ -7,7 +7,7 @@
   </defs>
 
   <!-- 1. Círculo Vermelho de Fundo -->
-  <circle cx="384" cy="384" r="350" fill="#f44336"/>
+  <circle cx="384" cy="384" r="350" fill="#808080"/>
 
   <g clip-path="url(#limiteCirculo)">
     <!-- 2. A Sombra Longa Vetorial masterizada por você -->
